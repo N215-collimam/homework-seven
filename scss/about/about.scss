@@ -1,0 +1,49 @@
+//use one div for the about, one div for the qute sections
+.day{
+    margin-top: 25px;
+    margin-bottom: 110px;
+
+
+    .day-header{
+        background-color: white;       
+
+        h1{
+            margin-bottom: 5px;
+            font-size: 60px;
+            font-family: proxima;
+            font-style: normal;
+            letter-spacing: 25px;
+        }
+
+        p{
+            font-size: 16px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-style: italic;
+            font-weight: bold;
+        }
+        
+        .border-bottom{
+            width: 185px;
+            height: 2px;
+            background-color: black;
+            margin-bottom: 16px;
+        }
+    }
+}
+
+
+@media all and (max-width: 1000px){
+    .day{
+        .day-header{
+            margin-left: 20px;
+
+            p{
+                margin-right: 20px;
+            }
+        }
+
+    }
+} 
+//add padding to a media querey after 1000px for text
+//parent div max-width 722px, img in a new div, div has margin right 21. img is 260x150. text goes in its own div
+//media query for 900 to stack in column
